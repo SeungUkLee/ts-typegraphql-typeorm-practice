@@ -15,4 +15,4 @@ async function main() {
     console.log("Server has started!");
 }
 
-main().catch((err) => console.log(err));
+main().catch((err) => console.log(`ERR: ${err}`));
